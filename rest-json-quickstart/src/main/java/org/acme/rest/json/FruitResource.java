@@ -1,16 +1,14 @@
 package org.acme.rest.json;
 
+import java.net.URI;
 import java.util.*;
 import javax.ws.rs.*;
-import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
 import javax.transaction.Transactional;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
 
-import org.jboss.logging.Logger;
 import org.jboss.resteasy.annotations.jaxrs.PathParam;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import io.quarkus.panache.common.Sort;
 
