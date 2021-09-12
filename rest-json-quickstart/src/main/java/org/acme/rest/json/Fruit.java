@@ -32,4 +32,9 @@ public class Fruit extends PanacheEntity {
         return find("name", name).firstResult();
     }
 
+    @Override
+    public String toString(){
+        return this.name;
+    }
+
 }

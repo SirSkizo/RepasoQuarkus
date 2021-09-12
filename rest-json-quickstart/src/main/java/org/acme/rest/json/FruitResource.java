@@ -8,9 +8,8 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import org.jboss.resteasy.annotations.jaxrs.PathParam;
-
-
 import io.quarkus.panache.common.Sort;
+
 
 @Path("/fruits")
 @Produces(MediaType.APPLICATION_JSON)

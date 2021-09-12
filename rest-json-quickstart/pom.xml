@@ -42,6 +42,14 @@
         <artifactId>quarkus-jdbc-postgresql</artifactId>
     </dependency>
 
+    <!-- Mocking dependencies -->
+    <dependency>
+        <groupId>io.quarkus</groupId>
+        <artifactId>quarkus-panache-mock</artifactId>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Defaults -->
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy-jsonb</artifactId>
